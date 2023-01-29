@@ -1,0 +1,96 @@
+﻿/* if having trouble getting things to fit, choose a different default font */
+body
+{
+	background-color:aqua;
+	color:deeppink;
+	font-size:medium;
+	font-family:"Arial", "serif";
+}
+button {
+ 	margin-bottom:.75em;
+	height:3em;
+	width:5em;
+	display:block;
+}
+span
+{
+	font-style:bold;
+	margin-left:1em;
+	color:black;
+	background-color:red;
+}
+input[type=text]
+{
+	font-size:1em;
+}
+input[type=number]
+{ 
+	width: 2.5em;
+}
+input[type=time], [type=date]
+{
+	font-size:1.2em;
+}
+#saveImage
+{
+	opacity :0.3;
+}
+.datapair
+{
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+}
+#topParentDiv{
+	text-align:center;
+}
+.topdiv
+{
+	border:0.2em solid black;
+	display:inline-block;
+	background-color:lightpink;
+	width:60%;
+	margin:auto;
+	text-align:center;
+}
+.bottomdiv
+{
+	background-color:greenyellow;
+	border:0.2em solid black; 
+	margin-top:3em; 
+	padding:1em;
+	text-align:center;
+}
+#buttonDiv {
+	padding:0 7em; 
+	margin-top: 5em;
+}
+#buttonDiv button {  
+	width:8em;
+	margin-bottom: 4em; 
+	background-color: lightblue;
+}
+.formLabel{
+	display:inline-block;
+	width:200px;
+}
+.flexBox{
+	background-color: aliceblue;
+	display:flex;
+	flex-direction: row;
+	width: 60%;
+	margin: auto;
+}
+
+.rightBox{
+	text-align: right;
+	margin-left: auto;
+}
+
+h1{
+	text-align: center;
+	align-content: center;
+}
+
+#hidden{
+	visibility: visible;
+}
